@@ -1,8 +1,8 @@
-# 📈 Multi-Agent Financial Forecasting & Game-Theoretic Referee
+# 📈 Multi-Agent Financial Forecasting System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.streamlit.app/)
-![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
-![Plotly](https://img.shields.io/badge/visualization-Plotly-orange.svg)
+[![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://multi-agent-forecasting-vfjklg36dptbikplrehhha.streamlit.app/)
+
+> **Live Interactive Dashboard:** [Launch Multi-Agent Forecasting App](https://multi-agent-forecasting-vfjklg36dptbikplrehhha.streamlit.app/)
 
 An end-to-end financial forecasting system powered by a multi-agent framework. The project creates a complete pipeline: engineering financial features, training four specialized forecasting agents, using a game-theoretic referee to dynamically adjust model weights over time, and hosting an interactive analytics dashboard.
 
@@ -23,14 +23,3 @@ An end-to-end financial forecasting system powered by a multi-agent framework. T
 | :---: | :---: |
 | Compare ensemble log-return predictions against historical market actuals over customizable time windows. | Stacked area visualization tracking how trust shifts between agents during market events (e.g., 2020 crash). |
 
----
-
-## 📁 Repository Structure
-
-```text
-├── app.py                   # Streamlit dashboard application
-├── backtest_results.csv     # Historical predictions, actuals, and agent weights
-├── metrics_report.csv       # Summary performance metrics (Sharpe ratio, Accuracy)
-├── notebooks/               # Development notebooks (Pipeline -> Models -> Backtest)
-├── requirements.txt         # Project dependencies
-└── README.md                # Project documentation
