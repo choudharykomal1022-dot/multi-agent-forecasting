@@ -15,7 +15,7 @@ An algorithmic trading framework combining specialized machine learning agents v
 ##  Live Interactive Dashboard
 
 Explore live forecasts, interactive backtests, and agent weight evolution:  
-👉 **[Launch Live Streamlit Dashboard](https://multi-agent-forecasting-vfjklg36dptbikplrehhha.streamlit.app/)**
+*[Launch Live Streamlit Dashboard](https://multi-agent-forecasting-vfjklg36dptbikplrehhha.streamlit.app/)*
 ![Dashboard_Preview](dashboard.jpeg)
 ---
 
